@@ -1,0 +1,27 @@
+Raspberrypi Ip : HAL 192.168.0.205
+
+Remote PC :  MARVIN 192.168.0.204
+
+echo "export ROS_HOSTNAME=192.168.0.204" >> ~/.bashrc
+
+echo "export ROS_MASTER_URI=http://192.168.0.204:11311" >> ~/.bashrc
+
+export TURTLEBOT3_MODEL=$burger
+
+env TURTLEBOT3_MODEL
+
+roslaunch turtlebot3_gazebo_plugin turtlebot3_world.launch
+
+export GAZEBO_MODEL_PATH=~/catkin_ws/src/turtlebot3_gazebo_plugin/models:${GAZEBO_MODEL_PATH}
+
+
+export GAZEBO_MODEL_PATH=~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models:${GAZEBO_MODEL_PATH}
+
+cd ~/gaurav_ws && catkin_make
+
+echo "source ~/gaurav_ws/devel/setup.bash" >> ~/.bashrc
+
+
+export GAZEBO_MODEL_PATH=~/catkin_ws/src/gazebo_models:${GAZEBO_MODEL_PATH}
+
+
