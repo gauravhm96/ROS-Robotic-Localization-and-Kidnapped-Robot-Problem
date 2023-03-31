@@ -1,17 +1,16 @@
-# TurtleBot3
+# ROS-Robotic-Localization-and-Kidnapped-Robot-Problem
 <img src="https://github.com/ROBOTIS-GIT/emanual/blob/master/assets/images/platform/turtlebot3/logo_turtlebot3.png" width="300">
 
-[![kinetic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3/workflows/kinetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3/tree/kinetic-devel)
+## Documentation
+- [ROS_Robotic, Localization and Kidnapped Robot .pdf](https://github.com/gauravhm96/ROS-Robotic-Localization-and-Kidnapped-Robot-Problem/blob/165c3b4a69519aeabc2a08a8213c07b9369ae7e2/ROS_Robotic,%20Localization%20and%20Kidnapped%20Robot%20.pdf)
 
-[![melodic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3/workflows/melodic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3/tree/melodic-devel)
+## Linux Machine Configuration File(Master Device)
 
-[![noetic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3/workflows/noetic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3/tree/noetic-devel)
+- [Linux Machine - REMOTEPC]()
 
-[![dashing-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3/workflows/dashing-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3/tree/dashing-devel)
+## RaspberryPi Configuration Files (Node/Slave Device)
 
-[![foxy-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3/workflows/foxy-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3/tree/foxy-devel)
-
-[![galactic-devel Status](https://github.com/ROBOTIS-GIT/turtlebot3/workflows/galactic-devel/badge.svg)](https://github.com/ROBOTIS-GIT/turtlebot3/tree/galactic-devel)
+- [Raspberry Pi - Node]()
 
 ## ROBOTIS e-Manual for TurtleBot3
 - [ROBOTIS e-Manual for TurtleBot3](http://turtlebot3.robotis.com/)
