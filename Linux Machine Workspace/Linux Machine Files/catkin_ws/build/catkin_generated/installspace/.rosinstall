@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/gaurav/catkin_ws/install/setup.sh

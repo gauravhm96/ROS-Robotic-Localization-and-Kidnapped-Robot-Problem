@@ -1,0 +1,8 @@
+prefix=/home/pi/catkin_ws/devel
+
+Name: ld08_driver
+Description: Description of ld08_driver
+Version: 1.0.0
+Cflags: -I/home/pi/catkin_ws/src/ld08_driver/include
+Libs: -L/home/pi/catkin_ws/devel/lib 
+Requires: 
